@@ -1,6 +1,9 @@
 # robofriends
 Find your favorite robot friends. Inspired by the TV show "Mr. Robot" and fascination for robot doodles. Project to test React.js features.
 
+
+## Note:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
