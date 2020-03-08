@@ -1,8 +1,8 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import CardList from "./CardList";
 import SearchBox from "./SearchBox";
 import { robots } from "./robots";
-import './App.css';
+import "./App.css";
 
 // const state = {
 //   robots: robots,
@@ -18,6 +18,10 @@ class App extends Component {
     };
   }
 
+  componentDidMount() {
+    console.log("check");
+  }
+
   onSearchChange = event => {
     this.setState({ searchfield: event.target.value });
   };
@@ -31,7 +35,7 @@ class App extends Component {
     // console.log(filteredRobots);
     return (
       <div className="tc">
-        <h1 className='f1 ttl'>RoboFriends</h1> {/*ttl = to lowercase */}
+        <h1 className="f1 ttl">RoboFriends</h1> {/*ttl = to lowercase */}
         <SearchBox searchChange={this.onSearchChange} />
         <CardList robots={filteredRobots} />
       </div>
