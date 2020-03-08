@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import CardList from "./CardList";
 import SearchBox from "./SearchBox";
 // import { robots } from "./robots";
+import Scroll from './Scroll'
 import "./App.css";
 
 // const state = {
@@ -42,7 +43,9 @@ class App extends Component {
         <div className="tc">
           <h1 className="f1 ttl">RoboFriends</h1> {/*ttl = to lowercase */}
           <SearchBox searchChange={this.onSearchChange} />
-          <CardList robots={filteredRobots} />
+          <Scroll>
+            <CardList robots={filteredRobots} />
+          </Scroll>
         </div>
       );
     }
