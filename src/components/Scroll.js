@@ -5,7 +5,6 @@ import React from "react";
 //children
 
 const Scroll = props => {
-  console.log(props);
   return (
     <div
       style={{
