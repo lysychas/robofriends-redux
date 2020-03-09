@@ -1,5 +1,5 @@
 # robofriends
-Find your favorite robot friends. Inspired by the TV show "Mr. Robot" and fascination for robot doodles. Project to test React.js features.
+Find your favorite robot friends. Inspired by the TV show "Mr. Robot" and fascination for robot doodles. Project to test React.js+Redux features.
 
 
 ## Note:
