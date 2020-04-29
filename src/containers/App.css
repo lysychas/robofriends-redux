@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/b593a614952261da06c53a02d1954f44?family=SEGA+LOGO+FONT);
+@import url(//db.onlinewebfonts.com/c/b593a614952261da06c53a02d1954f44?family=SEGA + LOGO + FONT);
 
 @font-face {
   font-family: "SEGA LOGO FONT";
@@ -6,14 +6,18 @@
   font-weight: normal;
   src: url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.eot"); /* IE9*/
   src: url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.eot?#iefix")
-      format("embedded-opentype"), /* IE6-IE8 */
-    url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.woff2")
-      format("woff2"), /* chrome、firefox */
-    url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.woff")
-      format("woff"), /* chrome、firefox */
-    url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.ttf")
-      format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.svg#SEGA LOGO FONT")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.svg#SEGA LOGO FONT")
       format("svg"); /* iOS 4.1- */
 }
 

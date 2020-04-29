@@ -2,11 +2,11 @@ import {
   CHANGE_SEARCH_FIELD,
   REQUEST_ROBOTS_PENDING,
   REQUEST_ROBOTS_SUCCESS,
-  REQUEST_ROBOTS_FAILED
+  REQUEST_ROBOTS_FAILED,
 } from "./constants";
 
 const initialStateSearch = {
-  searchField: ""
+  searchField: "",
 };
 
 export const searchRobots = (state = initialStateSearch, action = {}) => {
@@ -21,7 +21,7 @@ export const searchRobots = (state = initialStateSearch, action = {}) => {
 const initialStateRobots = {
   isPending: false,
   robots: [],
-  error: ""
+  error: "",
 };
 
 export const requestRobots = (state = initialStateRobots, action = {}) => {
